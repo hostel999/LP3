@@ -17,3 +17,17 @@ def knapsack_dp():
 
 if __name__ == "__main__":
     knapsack_dp()
+
+# def knapsack(val,wt,W):
+#     dp = [0]*(W+1)
+#     for i in range(len(val)):
+#         weight= wt[i]
+#         value= val[i]
+#         for w in range(W,weight-1,-1):
+#             dp[w]= max(dp[w],value+dp[w-weight])
+            
+#     print("Maximum value (1D DP) =",dp[W])
+# val=[50,100,150,200]
+# wt=[8,16,32,40] 
+# W=64
+# knapsack(val,wt,W)
