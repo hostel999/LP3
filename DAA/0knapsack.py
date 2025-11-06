@@ -31,3 +31,4 @@ if __name__ == "__main__":
 # wt=[8,16,32,40] 
 # W=64
 # knapsack(val,wt,W)
+
